@@ -37,7 +37,7 @@
 			<div id="navbar" class="navbar">
 				<nav id="site-navigation" class="navigation main-navigation" role="navigation">
 					<div class="header-logo">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/staff-logo.png" alt="">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/header-logo.png" alt="">
 					</div>
 					<div class="main-menu">
 						<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu', 'menu_id' => 'primary-menu' ) ); ?>

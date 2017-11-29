@@ -370,3 +370,22 @@ p.faq {
 	margin-top: -104px;
 }
 
+.header-logo {
+	margin-top: -75px;
+}
+
+.nav-menu li a {
+	line-height: 1;
+}
+.nav-menu .current_page_item > a, .nav-menu .current_page_ancestor > a, .nav-menu .current-menu-item > a, .nav-menu .current-menu-ancestor > a {
+	border-bottom: 6px solid #3c145a;
+	font-style: normal;
+}
+
+.nav-menu li a:hover {
+	background: transparent;
+}
+
+#primary-menu li.menu-item a {
+	color: #fff !important;
+}
