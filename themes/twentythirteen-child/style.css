@@ -1,0 +1,372 @@
+/*
+Theme Name: TwentySeventeen Child
+Template: twentythirteen
+*/
+
+@import url(../twentythirteen/style.css);
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500');
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
+
+body, p, span, table, tr, td, th, h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+
+.site {
+	border: 0;
+}
+
+#search {
+	background: url('img/1.png');
+	background-position: center;
+	background-size: cover;
+	padding: 4% 0%;
+
+}
+
+.theme-btn-lt {
+	font-family: 'Quicksand', sans-serif;
+	background: #6f2ca1 !important;
+	color: #fff !important;
+	border: 0 !important;
+	font-size: 13px;
+}
+
+.theme-container-bg	{
+	background: #2d1b3a;
+}
+
+.theme-btn-dk {
+	color: #fff !important;
+	background: #2f0e46 !important;
+	border: 0 !important;
+	font-size: 13px;
+}
+
+.opening-title, .opening-desc, .openings-header, .search-a-job-container, .looking-container {
+	color: #fff;
+	font-family: 'Quicksand', sans-serif !important;
+}
+
+.openings-container, .search-a-job-container, .looking-container {
+	display: inline-block;
+	vertical-align: top; 
+}
+
+.search-a-job-container {
+	margin: 0 1.5%;
+	padding: 10px;
+}
+
+.openings-container {
+	width: 46%;
+	position: relative;
+}
+
+.opening-desc, .top-search-list {
+	font-size: 13px;
+}
+
+.openings-header {
+	width: 32%;
+	margin: 0 auto;
+	margin-bottom:20px;
+}
+
+.openings-header span {
+	border-bottom: 4px solid #fff;
+	font-size: 24px;
+}
+
+.search-a-job-container, .looking-container {
+	width: 25%;
+}
+
+.search-bar input[type='text'] {
+	width: 100%;
+}
+
+.openings-list {
+	margin-bottom: 10px;
+	padding: 10px 10px 53px;
+	position: relative;
+}
+
+.opening-read-more input[type='button'] {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+}
+
+.search-btn, .search-bar {
+	margin-top: 10px;
+}
+
+.search-btn input[type='button'] {
+	width: 100%;
+}
+
+.opening-view-all input[type='button'] {
+	position: absolute;
+	right: 0;
+}
+
+.looking-container {
+	padding: 10px;
+}
+
+.looking-img img {
+	width: 100%;
+}
+
+.top-search-header {
+	margin: 10% 0%;	
+}
+
+.search-a-job-header, .looking-header, .about-img, .about-title {
+	text-align: center;
+}
+
+.looking-btn input[type='button'] {
+	width: 100%;
+}
+
+.box-title {
+	font-size:24px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.looking-btn {
+	margin: 10px 0;
+}
+
+.search-a-job-container, .looking-container {
+	border-bottom: 1px solid #fff;
+}
+
+.about-us-content {
+	display: inline-block;
+	vertical-align: top;
+	background: #fdfdfd;
+	margin: 0% 1%;
+	padding: 6% 1% 2%;
+}
+
+#about-us-section {
+	background: #d9d9d9;
+	font-family: 'Quicksand', sans-serif !important;
+	padding: 4% 0%;
+
+}
+
+.about-us-header, .about-us-subheader {
+	text-align: center;
+}
+
+.about-us-main-content {
+	display: flex;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.about-img {
+	margin-bottom: 7%;
+}
+
+.about-title span {
+	border-bottom: 3px solid #3c145a;
+	font-weight: bold;
+}
+
+.about-title {
+	margin-bottom: 10px;
+	font-size: 17px;
+}
+
+.about-us-title {
+	margin-bottom: 50px;
+}
+
+.about-us-header {
+	font-size: 50px;
+}
+
+.about-us-header span {
+	border-bottom: 3px solid #3c145a;
+}
+
+.about-us-subheader {
+	font-size: 24px;
+}
+
+.search-main-container {
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+}
+
+#final {
+	background: url(img/7.png);
+	background-size: cover;
+	background-position: 1% 50%;
+	padding: 1% 0%;
+	font-family: Quicksand;
+}
+
+.final-content {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.latest-news, .why-us-container, .faq-container {
+	display: inline-block;
+	vertical-align: top;
+	width: 26%;
+	margin-right: 15px;
+
+}
+
+.latest-news-header, .why-us-header, .faq-header {
+	border-left: 8px solid #000;
+	background: url(img/8.png);
+	padding: 5% 2%;
+}
+
+.latest-news-content-container {
+	background: #f0e6f8;
+	padding: 10px 10px 29px;
+	margin: 20px 0;
+	position: relative;
+}
+
+.latest-news-more {
+	bottom: 10px;
+	position: absolute;
+	right: 10px;
+}
+
+.why-us-text {
+	margin: 20px 0px;
+}
+
+.faq-jobseekers-header, .faq-employee-header {
+	font-size: 23px;
+}
+
+p.faq {
+	margin-top: 10px;
+	background: #555356;
+	padding: 11px;
+	color: #fff;
+}
+
+/************************
+******** Footer *********
+*************************/
+
+#footer {
+	font-family: Quicksand;
+	background: #2a292a;
+	color:#fff;
+}
+.site-footer {
+	text-align: unset;
+}
+
+.footer-company-container, .footer-map-container {
+	display: inline-block;
+	width: 30%;
+	vertical-align: top;
+	margin: 2% 1%;
+}
+
+.footer-menu {
+	display: inline-block;
+	width: 33.4%;
+	margin: 2% 1%;
+}
+
+.footer-content {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.footer-menu-container {
+	display: table-cell;
+	padding: 0% 6%;
+}
+
+.footer-menu-wrapper {
+	display: table;
+	width: 100%;
+}
+
+.footer-social-media {
+	margin-top: 4%;
+}
+
+.footer-social-media-title {
+	font-weight: bold;
+}
+
+.footer-company-subheader {
+	font-size: 30px;
+}
+
+.footer-menu-title {
+	margin-bottom: 20px;
+	font-size: 18px;
+}
+
+.footer-menu-mid {
+	border-left: 2px solid #fff;
+	border-right: 2px solid #fff;
+}
+
+.footer-credits{
+	background: #2d1f38;
+	color: #fff;
+	padding: 1% 8%;
+	text-align: right;
+}
+
+/*********************
+******* NAVBAR *******
+**********************/
+
+.main-navigation {
+	max-width: 100%;
+	position: relative;
+	padding: 0% 9%;
+}
+
+#navbar {
+	font-family: Quicksand;
+}
+
+.header-logo, .main-menu {
+	display: inline-block;
+}
+
+.main-menu {
+	position: absolute;
+	right: 5%;
+	bottom: 30%;
+}
+
+#navbar, .site-header {
+	background: transparent !important;
+}
+
+.site-header {
+	position: relative;
+	z-index: 9;
+}
+
+.custom-slider {
+	position: relative;
+	z-index: 5;
+	margin-top: -104px;
+}
+
