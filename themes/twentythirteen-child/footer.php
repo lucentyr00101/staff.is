@@ -85,7 +85,7 @@
 
 			<div class="footer-map-container">
 				<div class="footer-map">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/map.png" alt="">
+					<?php echo do_shortcode('[wpgmza id="1"]'); ?>
 				</div>
 				<div class="footer-map-details">
 					<div class="footer-map-address">

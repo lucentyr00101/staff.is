@@ -14,6 +14,7 @@ body, p, span, table, tr, td, th, h1, h2, h3, h4, h5, h6 {
 
 .site {
 	border: 0;
+	max-width: 100%;
 }
 
 #search {
@@ -131,6 +132,10 @@ body, p, span, table, tr, td, th, h1, h2, h3, h4, h5, h6 {
 	width: 100%;
 }
 
+.about-text {
+	text-align: justify;
+}
+
 .box-title {
 	font-size:24px;
 	text-align: center;
@@ -234,6 +239,11 @@ body, p, span, table, tr, td, th, h1, h2, h3, h4, h5, h6 {
 	padding: 5% 2%;
 }
 
+
+.latest-news-text {
+	word-wrap: break-word;
+}
+
 .latest-news-content-container {
 	background: #f0e6f8;
 	padding: 10px 10px 29px;
@@ -277,14 +287,30 @@ p.faq {
 
 .footer-company-container, .footer-map-container {
 	display: inline-block;
-	width: 30%;
+	width: 29%;
 	vertical-align: top;
 	margin: 2% 1%;
 }
 
+.footer-company-header {
+	width: 85%;
+}
+
+.footer-company-header img {
+	width: inherit;
+}
+
+.footer-map {
+	width: 100%;
+}
+
+.footer-map img {
+	width: inherit;
+}
+
 .footer-menu {
 	display: inline-block;
-	width: 33.4%;
+	width: 33%;
 	margin: 2% 1%;
 }
 
@@ -371,6 +397,11 @@ p.faq {
 	margin-top: -104px;
 }
 
+.faq-jobseekers-container, .faq-employee-container {
+	margin-top: 5px;
+}
+
+
 .header-logo {
 	margin-top: -75px;
 }
@@ -389,4 +420,54 @@ p.faq {
 
 #primary-menu li.menu-item a {
 	color: #fff !important;
+}
+
+.accordions .accordion-icons.left {
+	float: right;
+}
+
+#accordions-34 .accordions-head-title, #accordions-37 .accordions-head-title {
+	font-size: 15px;
+}
+
+#accordions-34 .accordions-head, #accordions-37 .accordions-head {
+	margin-top: 10px !important;
+	background: #555356 !important;
+	padding: 11px !important;
+	color: #fff !important;
+}
+
+#accordions-34, #accordions-37 {
+	font-family:Quicksand;
+	background: transparent !important;
+}
+
+
+/****************************
+****** responsiveness *******
+*****************************/
+
+@media only screen and (min-width:320px)  {
+	/* smartphones, iPhone, portrait 480x320 phones */
+
+}
+@media only screen and  (min-width:481px)  {
+	/* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+
+}
+@media only screen and  (min-width:641px)  {
+	/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+
+}
+@media only screen and  (min-width:961px)  {
+	/* tablet, landscape iPad, lo-res laptops ands desktops */
+
+}
+@media only screen and  (min-width:1025px) {
+	/* big landscape tablets, laptops, and desktops */
+
+}
+@media only screen and  (min-width:1281px) {
+	/* hi-res laptops and desktops */
+
 }

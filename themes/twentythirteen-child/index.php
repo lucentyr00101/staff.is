@@ -155,38 +155,30 @@
 					<div class="latest-news-header">
 						<span>Latest News and Events</span>
 					</div>
-					<div class="latest-news-content-container">
-						<div class="latest-news-content">
-							<div class="latest-news-text">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, officia sint esse ad sapiente atque maxime, cupiditate eligendi repellat ipsum qui eum numquam. Itaque rem molestias modi provident, culpa qui.
-							</div>
-							<div class="latest-news-more">
-								<a href="#">Read More</a>
-							</div>
-						</div>
-					</div>
 
-					<div class="latest-news-content-container">
-						<div class="latest-news-content">
-							<div class="latest-news-text">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod nostrum repudiandae quibusdam eos, a accusantium! Velit voluptas cumque veniam fugit distinctio! Illo, minima, odit. Veniam quas voluptatum molestias molestiae necessitatibus.
-							</div>
-							<div class="latest-news-more">
-								<a href="#">Read More</a>
+					<?php
+					$args = array(
+						'post_type' => 'update',
+						'posts_per_page' => 3,
+						'order' => 'desc',
+					);
+					$the_query = new WP_Query( $args );
+					?>
+					<?php if ( have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+						<div class="latest-news-content-container">
+							<div class="latest-news-content">
+								<div class="latest-news-text">
+									<?php
+									echo project_excerpt();
+									?>
+								</div>
+								<div class="latest-news-more">
+									<a href="<?php the_permalink(); ?>">Read More</a>
+								</div>
 							</div>
 						</div>
-					</div>
-
-					<div class="latest-news-content-container">
-						<div class="latest-news-content">
-							<div class="latest-news-text">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias placeat quaerat sequi iure delectus! Non eligendi temporibus, dolor quos saepe quibusdam qui esse quaerat! Corporis doloribus optio dignissimos, dicta non?
-							</div>
-							<div class="latest-news-more">
-								<a href="#">Read More</a>
-							</div>
-						</div>
-					</div>
+					<?php endwhile; else: ?>
+					<p>There are no posts or pages here.</p> <?php endif; ?>
 				</div>
 
 				<div class="why-us-container">
@@ -199,6 +191,7 @@
 				</div>
 
 				<div class="faq-container">
+					
 					<div class="faq-header">
 						<span>Frequently Asked Questions</span>
 					</div>
@@ -208,9 +201,7 @@
 							<span>Job Seekers</span>
 						</div>
 						<div class="faq-jobseekers-q">
-							<p class='faq'>How to apply as employee?</p>
-							<p class='faq'>How do I get paid?</p>
-							<p class='faq'>Why should I trust staff.is?</p>
+							<?php echo do_shortcode("[accordions id='34']"); ?>
 						</div>
 					</div>
 					<div class="faq-employee-container">
@@ -218,9 +209,7 @@
 							<span>Employee</span>
 						</div>
 						<div class="faq-employee-q">
-							<p class='faq'>How to apply as employer?</p>
-							<p class='faq'>How do I pay?</p>
-							<p class='faq'>Why should I trust staff.is?</p>
+							<?php echo do_shortcode("[accordions id='37']"); ?>
 						</div>
 					</div>
 				</div>
