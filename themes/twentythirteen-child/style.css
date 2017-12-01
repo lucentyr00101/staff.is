@@ -214,8 +214,7 @@ body, p, span, table, tr, td, th, h1, h2, h3, h4, h5, h6 {
 
 #final {
 	background: url(img/7.png);
-	background-size: cover;
-	background-position: 1% 50%;
+	background-position: 25% 50%;
 	padding: 1% 0%;
 	font-family: Quicksand;
 }
